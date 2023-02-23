@@ -1,0 +1,13 @@
+@use "enter";
+
+$main-color: #EDB252;
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $main-color;
+}

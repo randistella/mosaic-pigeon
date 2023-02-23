@@ -1,0 +1,21 @@
+.enter {
+  display: flex;
+  align-items: center;
+  margin-top: 20vh;
+  flex-direction: column;
+
+  a {
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+
+    .text {
+      text-align: center;
+    }
+  }
+  img {
+    width: 500px;
+    padding: 10px;
+    border: 4px solid #fff;
+  }
+}
