@@ -1,6 +1,11 @@
-@use "enter";
+// styles will be applied to ALL pages
 
-$main-color: #EDB252;
+// partials
+@use "enter";
+@use "index";
+
+// variables
+$main-color: #FFCC33;
 
 
 * {
@@ -8,6 +13,3 @@ $main-color: #EDB252;
     box-sizing: border-box;
 }
 
-body {
-    background: $main-color;
-}
