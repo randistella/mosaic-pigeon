@@ -1,8 +1,6 @@
 // styles will be applied to ALL pages
 
 // partials
-@use "enter";
-@use "index";
 
 // variables
 $main-color: #FFCC33;
@@ -13,3 +11,47 @@ $main-color: #FFCC33;
     box-sizing: border-box;
 }
 
+body {
+    background: #333;
+
+    .tunnel-box {
+            display: flex;
+            align-items: center;
+            margin-top: 20vh;
+            flex-direction: column;  
+            
+        a {
+            font-size: 30px;
+            text-decoration: none;
+            color: #fff;
+
+            .text {
+            text-align: center;
+            }
+        }
+
+        a:hover {
+            color:$main-color;
+            font-style: italic;
+        }
+
+        img {
+            width: 500px;
+            padding: 10px;
+            border: 4px solid #fff;
+            }
+
+        img:hover {
+            border: 4px dashed $main-color;
+        }
+    }
+
+    .links {
+        // display: flex;
+        // flex-direction: row;
+        
+        a {
+            color: #fff;
+        }
+    }
+}
